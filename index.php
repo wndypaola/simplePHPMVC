@@ -27,6 +27,9 @@
             //llamar al controlador
             require_once("controllers/categorias.control.php");
             break;
+       case "category":
+            require_once("controllers/category.control.php");
+            break;
         case "login":
             require_once("controllers/login.control.php");
             break;
